@@ -1,0 +1,9 @@
+[package]
+name = "tikv-bench"
+version = "0.1.0"
+authors = ["Nick Cameron <nrc@ncameron.org>"]
+edition = "2018"
+
+[dependencies]
+tikv-client = { path = "../client-rust" }
+runtime = "0.3.0-alpha.3"
